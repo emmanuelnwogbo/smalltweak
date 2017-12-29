@@ -11,7 +11,7 @@ var passport = require('passport');
 var socketIO = require('socket.io');
 var LocalStrategy = require('passport-local').Strategy;
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/movieapp')
+mongoose.connect('mongodb://localhost/node-auth')
  .then(() => console.log('connection succesful'))
 .catch((err) => console.error(err));
 var index = require('./routes/index');
