@@ -5,4 +5,6 @@ A simple crud app with authorization
 
 
 Hey! 
-I connected socket io from your server to the create.ejs view. Please look at the app.js file and the create.ejs file to see the code changes. Also check your package.json. I didn't do anything by way of css; but if you look at your browser console and the console of your command line you'll see that there's a connection, you can work with from there. Pls let me know if anything else.
+I made some changes again to the package.json and the app.js files. I added express-sessions and connect-mongo. You can read about sessions in express here: https://nodewebapps.com/2017/06/18/how-do-nodejs-sessions-work/
+
+pls read through the app.js file; changes are on lines 7, 8, 24, and 39
